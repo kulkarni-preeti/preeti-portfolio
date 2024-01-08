@@ -1,0 +1,31 @@
+.content {
+  margin: 7em 5em 0 7em;
+  padding: 3em;
+}
+
+.landing {
+  min-height: 80vh;
+}
+
+.about {
+  min-height: 80vh;
+}
+
+.content-name {
+  color: #64ffeb;
+  font-size:3em;
+  font-weight: bolder;
+}
+
+.content-shortdesc {
+  color: #ccd6f6;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+.content-desc {
+  color: #8892af;
+  font-size: 1em;
+}
