@@ -1,3 +1,18 @@
 [build]
-  command = "npm run build"
-  publish = "dist/portfolio/browser"
+  command = "ng build --prod"
+  publish = "dist/your-angular-app"
+
+[[plugins]]
+  package = "@netlify/plugin-angular"
+
+# Optional: Add headers or redirects
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Cache-Control = "public, max-age=0, must-revalidate"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
